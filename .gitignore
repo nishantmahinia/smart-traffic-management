@@ -23,3 +23,13 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+
+# Environment & Secrets
+.env
+.env.*
+*.key
+*.pem
+*.cert
+*.p12
+*.credentials
+
