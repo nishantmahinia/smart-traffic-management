@@ -1,0 +1,25 @@
+# Virtual Environments
+venv/
+venv*/
+env/
+ENV/
+.venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.bak
+
+# Video Uploads (Keep sample videos, ignore runtime user uploads)
+sample_videos/*_uploaded.*
+sample_videos/main_analysis_video.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE configurations
+.vscode/
+.idea/
+*.swp
